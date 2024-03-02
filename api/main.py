@@ -10,6 +10,7 @@ from typing_extensions import Required
 app = FastAPI()
 
 origins = [
+    "https://potato-leaf-disease-prediction-1.onrender.com",
     "http://localhost",
     "http://localhost:3000",
 ]
